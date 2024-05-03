@@ -67,7 +67,7 @@ function switchBackImages(json) {
         imgUrl = "url('images/backgroundImage.jpg')";
     }
     
-    document.body.style.backgroundImage = imgUrl;
+    document.querySelector('.background-img').style.backgroundImage = imgUrl;
 }
 
 function switchTempIcon(json) {
