@@ -13,7 +13,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(images/skyImg.jpg);
+    background-image: url(images/backgroundImage.jpg);
     background-size: cover;
     background-position: center;
     filter: blur(5px);
@@ -75,7 +75,7 @@ body {
     font-weight: 600px;
 }
 
-.temp {
+#temp {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -86,7 +86,8 @@ body {
     padding: 20px;
 }
 
-#temp-img {
+#temp-icon {
+    width: 120px;
     filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.2));
 }
 
